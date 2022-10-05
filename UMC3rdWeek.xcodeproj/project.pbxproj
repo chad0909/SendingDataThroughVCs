@@ -17,6 +17,9 @@
 		E5200D3828ED08DC001407BA /* UMC3rdWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5200D3728ED08DC001407BA /* UMC3rdWeekTests.swift */; };
 		E5200D4228ED08DC001407BA /* UMC3rdWeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5200D4128ED08DC001407BA /* UMC3rdWeekUITests.swift */; };
 		E5200D4428ED08DC001407BA /* UMC3rdWeekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5200D4328ED08DC001407BA /* UMC3rdWeekUITestsLaunchTests.swift */; };
+		E5200D5128ED0AC1001407BA /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5200D5028ED0AC1001407BA /* RedViewController.swift */; };
+		E5200D5328ED0ACB001407BA /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5200D5228ED0ACB001407BA /* BlueViewController.swift */; };
+		E5200D5528ED1557001407BA /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5200D5428ED1557001407BA /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		E5200D3D28ED08DC001407BA /* UMC3rdWeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMC3rdWeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5200D4128ED08DC001407BA /* UMC3rdWeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC3rdWeekUITests.swift; sourceTree = "<group>"; };
 		E5200D4328ED08DC001407BA /* UMC3rdWeekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC3rdWeekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5200D5028ED0AC1001407BA /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		E5200D5228ED0ACB001407BA /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E5200D5428ED1557001407BA /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				E5200D2B28ED08DC001407BA /* LaunchScreen.storyboard */,
 				E5200D2E28ED08DC001407BA /* Info.plist */,
 				E5200D2628ED08DB001407BA /* UMC3rdWeek.xcdatamodeld */,
+				E5200D5028ED0AC1001407BA /* RedViewController.swift */,
+				E5200D5228ED0ACB001407BA /* BlueViewController.swift */,
+				E5200D5428ED1557001407BA /* GreenViewController.swift */,
 			);
 			path = UMC3rdWeek;
 			sourceTree = "<group>";
@@ -261,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5200D5128ED0AC1001407BA /* RedViewController.swift in Sources */,
 				E5200D2228ED08DB001407BA /* ViewController.swift in Sources */,
 				E5200D2828ED08DB001407BA /* UMC3rdWeek.xcdatamodeld in Sources */,
 				E5200D1E28ED08DB001407BA /* AppDelegate.swift in Sources */,
+				E5200D5328ED0ACB001407BA /* BlueViewController.swift in Sources */,
 				E5200D2028ED08DB001407BA /* SceneDelegate.swift in Sources */,
+				E5200D5528ED1557001407BA /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
